@@ -11,22 +11,19 @@ function App() {
 			id: 1,
 			name: 'John Smith',
 			salary: 1000,
-			currency: "USD",
-			increase: true
+			currency: "USD"
 		},
 		{
 			id: 2,
 			name: 'Mike Andersen',
 			salary: 1200,
-			currency: "USD",
-			increase: false
+			currency: "USD"
 		},
 		{
 			id: 3,
 			name: 'Kyle Nylson',
 			salary: 1100,
-			currency: "USD",
-			increase: true
+			currency: "USD"
 		},
 	];
 	return (
