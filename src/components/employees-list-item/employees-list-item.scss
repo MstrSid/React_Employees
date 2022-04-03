@@ -1,0 +1,67 @@
+.list-group-item {
+	padding: 15px 20px;
+	border-bottom: 1px solid #3d5a80;
+	&-money {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		max-width: 20%;
+	}
+	&-currency {
+		line-height: 21px;
+		font-size: 20px;
+	}
+	&:last-child {
+		border-bottom: none;
+	}
+	span {
+		line-height: 35px;
+		font-size: 20px;
+		cursor: pointer;
+		min-width: 550px;
+	}
+	input {
+		line-height: 35px;
+		font-size: 20px;
+		text-align: center;
+		border: 0;
+		max-width: 50%;
+	}
+	button {
+		width: 35px;
+		height: 35px;
+		margin: 3px;
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+	}
+	.btn-cookie {
+		color: #e09f3e;
+	}
+	.btn-trash {
+		color: #e5383b;
+	}
+	.fa-star {
+		width: 35px;
+		height: 35px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 16px;
+		color: #ffd700;
+		transition: 0.3s all;
+		transform: translateX(30px);
+		opacity: 0;
+	}
+	&.like .fa-star {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+	&.increase .list-group-item-label,
+	&.increase .list-group-item-input,
+	&.increase .list-group-item-currency {
+		color: #e09f3e;
+	}
+	&.increase .btn-star {
+		color: #aeaeae;
+	}
+}
